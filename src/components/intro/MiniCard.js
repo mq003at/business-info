@@ -10,7 +10,8 @@ function MiniCard({ miniEmp }) {
         <Card.Img variant="top" src={`https://ui-avatars.com/api/?name=${miniEmp.name}&size=128`} className="rounded-circle shadow-4-strong avatar-image py-3"></Card.Img>
 
         <Card.Body>
-          <Card.Title>{miniEmp.username}</Card.Title>
+          <Card.Title>{miniEmp.name}</Card.Title>
+          <div className="card-username">{miniEmp.username}</div>
           <Card.Link href={"https://www." + miniEmp.website} target="_blank">
             {miniEmp.website}
           </Card.Link>

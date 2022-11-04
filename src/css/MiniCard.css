@@ -3,7 +3,9 @@
   flex-basis: 33.3%;
   min-width: 33.3%;
 }
-
+.mini-card{
+    max-width: 20rem;
+}
 .avatar-image {
   width: auto;
   height: auto;
@@ -19,8 +21,9 @@
 .card-link {
   display: block;
 }
-
-
+.card-username{
+    font-style: italic;
+}
 .detail-btn {
     width: 75%;
 }
@@ -29,3 +32,4 @@
   background-color: #fff;
   border-color: #285e8e;
 }
+
