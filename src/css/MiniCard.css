@@ -1,0 +1,31 @@
+.mini-card-wrapper {
+  text-align: -webkit-center;
+  flex-basis: 33.3%;
+  min-width: 33.3%;
+}
+
+.avatar-image {
+  width: auto;
+  height: auto;
+  max-width: 15rem;
+  max-height: 15rem;
+  align-self: center;
+  border-radius: 50% !important;
+  padding: 1rem;
+  margin-top: 2rem;
+  border: 1px solid #c5cbd1;
+}
+
+.card-link {
+  display: block;
+}
+
+
+.detail-btn {
+    width: 75%;
+}
+.detail-btn:hover {
+  color: #285e8e;
+  background-color: #fff;
+  border-color: #285e8e;
+}

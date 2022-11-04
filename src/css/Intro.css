@@ -1,0 +1,32 @@
+.intro-wrapper {
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(180deg, #c5dbf2, 57%, #fff 50%);
+  padding: 0 !important;
+}
+
+.intro {
+  display: inline;
+}
+
+#intro-avatar {
+  height: 27%;
+  width: 27%;
+}
+
+.intro-card {
+  text-align: center;
+  justify-content: center;
+  border: none;
+}
+
+.card-text {
+    padding: 3.75rem 0;
+    margin: 0 15rem;
+}
+
+.card-body { 
+    padding-left: 0;
+    padding-right:0;
+    background-color: #fff;
+}

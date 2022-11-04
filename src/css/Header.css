@@ -1,0 +1,29 @@
+.header {
+    display: inline-flex;
+}
+
+.navbar {
+    background-color: #c5dbf2 !important;
+}
+.navbar .navbar-brand {
+    padding: 0.76rem 0;
+    display: block;
+    text-decoration: none;
+    font-family: "Lobster", cursive;
+    color: #240e7a;
+}
+.navbar-brand:hover {
+    background-image: linear-gradient(to right, #240e7a, #240e7a 100%);
+    background-position: 25% 75%;
+    background-size: 75% 1.25px;
+    background-repeat: no-repeat;
+}
+.navbar-link {
+    color: black
+}
+.navbar-link:hover {
+    background-image: linear-gradient(to right, #240e7a, #240e7a 100%);
+    background-position: 35% 75%;
+    background-size: 50% 1.25px;
+    background-repeat: no-repeat;
+}
