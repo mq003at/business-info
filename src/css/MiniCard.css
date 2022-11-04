@@ -3,8 +3,10 @@
   flex-basis: 33.3%;
   min-width: 33.3%;
 }
-.mini-card{
-    max-width: 20rem;
+.row {
+  max-width: 1000px;
+  text-align: center;
+  display: inline-flex;
 }
 .avatar-image {
   width: auto;
@@ -21,15 +23,14 @@
 .card-link {
   display: block;
 }
-.card-username{
-    font-style: italic;
+.card-username {
+  font-style: italic;
 }
 .detail-btn {
-    width: 75%;
+  width: 75%;
 }
 .detail-btn:hover {
   color: #285e8e;
   background-color: #fff;
   border-color: #285e8e;
 }
-
